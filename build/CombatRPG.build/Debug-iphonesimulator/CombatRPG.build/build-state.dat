@@ -1,0 +1,1633 @@
+TCombatRPG
+v7
+r0
+t330470344.210924
+cCheck dependencies
+cProcessInfoPlistFile /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app/Info.plist CombatRPG-Info.plist
+cCompileXIB /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/MainView.xib
+cCompileXIB /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/MainWindow.xib
+cCompileXIB /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/CombatView.xib
+cCompileXIB /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/AboutView.xib
+cProcessPCH /var/folders/1Y/1YaM4pEaHyaiBAFH5GPoek+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CombatRPG_Prefix-dnmfzsptbwnoolassitwxfxkzbkv/CombatRPG_Prefix.pch.gch CombatRPG_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/main.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/CombatRPGAppDelegate.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Classes/CombatRPGAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/MainView.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Classes/MainView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/MainViewController.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/CombatView.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/CombatView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/CombatViewController.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/CombatViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/AboutView.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/AboutView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/AboutViewController.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/AboutViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/Dice.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Dice.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/feedfetcher.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/feedfetcher.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/NSObject+SBJSON.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/NSString+SBJSON.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJSON.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonBase.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonParser.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonWriter.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app/CombatRPG normal i386
+cGenerateDSYMFile /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app.dSYM /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app/CombatRPG
+cTouch /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app
+
+N/Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk
+c000000004B9D856700000000000000EE
+t1268614503
+s238
+
+N/Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004B2B4CC3000000000026EE30
+t1261128899
+s2551344
+
+N/Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B2B4DC8000000000027E880
+t1261129160
+s2615424
+
+N/Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B2B4DAE0000000000001355
+t1261129134
+s4949
+
+N/Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B2B61620000000000000788
+t1261134178
+s1928
+
+N/Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B2B62B500000000016721E0
+t1261134517
+s23536096
+
+N/Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/Availability.h
+c000000004B2B4EE200000000000019F9
+t1261129442
+s6649
+
+N/Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h
+c000000004748AF950000000000000C7E
+t1195945877
+s3198
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/AboutView.h
+c000000004DFDE69D00000000000000BB
+t1308485277
+s187
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/AboutView.m
+c000000004DFDE69D00000000000001B8
+t1308485277
+s440
+i"AboutView.h"
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/AboutView.xib
+c000000004DFC85440000000000004D2C
+t1308394820
+s19756
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/AboutViewController.h
+c000000004DFDE69D00000000000001FD
+t1308485277
+s509
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/AboutViewController.m
+c000000004DFDE69D0000000000000449
+t1308485277
+s1097
+i"AboutViewController.h"
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Classes/CombatRPGAppDelegate.h
+c000000004DFDE69E00000000000001C8
+t1308485278
+s456
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Classes/CombatRPGAppDelegate.m
+c000000004DFDE69E0000000000000335
+t1308485278
+s821
+i"CombatRPGAppDelegate.h"
+i"MainViewController.h"
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Classes/FlipsideView.h
+c000000004DFC754A00000000000000BF
+t1308390730
+s191
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Classes/FlipsideView.m
+c000000004DFC754A00000000000001BF
+t1308390730
+s447
+i"FlipsideView.h"
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Classes/FlipsideViewController.h
+c000000004DFC754A0000000000000214
+t1308390730
+s532
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Classes/FlipsideViewController.m
+c000000004DFC76E40000000000000452
+t1308391140
+s1106
+i"FlipsideViewController.h"
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Classes/MainView.h
+c000000004DFDE69E00000000000000D1
+t1308485278
+s209
+i<UIKit/UIKit.h>
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Classes/MainView.m
+c000000004DFDE69E00000000000001B5
+t1308485278
+s437
+i"MainView.h"
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Classes/MainViewController.h
+c000000004DFFF7740000000000000196
+t1308620660
+s406
+i"CombatViewController.h"
+i"AboutViewController.h"
+i"SBJson.h"
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Classes/MainViewController.m
+c000000004DFFF7640000000000000A65
+t1308620644
+s2661
+i"MainViewController.h"
+i"MainView.h"
+i"SBJson.h"
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Combat.h
+c000000004DFC78CB00000000000000D6
+t1308391627
+s214
+i<UIKit/UIKit.h>
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Combat.m
+c000000004DFC78CB0000000000000558
+t1308391627
+s1368
+i"Combat.h"
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Combat.xib
+c000000004DFC78CB000000000000184D
+t1308391627
+s6221
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/CombatRPG-1.moved-aside/CombatView.xib
+c000000004DFC7A180000000000002F12
+t1308391960
+s12050
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/CombatRPG_Prefix.pch
+c000000004DFC754A0000000000000144
+t1308390730
+s324
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/CombatView.h
+c000000004DFFF78000000000000000D1
+t1308620672
+s209
+i"SBJson.h"
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/CombatView.m
+c000000004DFDE69E00000000000001BB
+t1308485278
+s443
+i"CombatView.h"
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/CombatView.xib
+c000000004DFCB5A9000000000000689E
+t1308407209
+s26782
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/CombatViewController.h
+c000000004DFDE69E00000000000002CA
+t1308485278
+s714
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/CombatViewController.m
+c000000004E025DC40000000000000902
+t1308777924
+s2306
+i"CombatViewController.h"
+i"Dice.h"
+i"JSON/JSON.h"
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Dice.h
+c000000004DFDE69E0000000000000117
+t1308485278
+s279
+i<Foundation/Foundation.h>
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Dice.m
+c000000004DFDF19600000000000003A2
+t1308488086
+s930
+i"Dice.h"
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/FlipsideView.xib
+c000000004DFC7F840000000000004D4E
+t1308393348
+s19790
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/JSON.h
+c000000004DFBA7FE0000000000000115
+t1308338174
+s277
+i"SBJson.h"
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/JSON/JSON.h
+c000000004A30ECC200000000000008F9
+t1244720322
+s2297
+i"SBJSON.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/JSON/NSObject+SBJSON.h
+c000000004A30ECC20000000000000A01
+t1244720322
+s2561
+i<Foundation/Foundation.h>
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/JSON/NSObject+SBJSON.m
+c000000004A30ECC200000000000008B9
+t1244720322
+s2233
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/JSON/NSString+SBJSON.h
+c000000004A30ECC20000000000000916
+t1244720322
+s2326
+i<Foundation/Foundation.h>
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/JSON/NSString+SBJSON.m
+c000000004A30ECC2000000000000089F
+t1244720322
+s2207
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/JSON/SBJSON.h
+c000000004A30ECC20000000000000AED
+t1244720322
+s2797
+i<Foundation/Foundation.h>
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/JSON/SBJSON.m
+c000000004A30ECC20000000000001ABC
+t1244720322
+s6844
+i"SBJSON.h"
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/JSON/SBJsonBase.h
+c000000004A30ECC20000000000000B82
+t1244720322
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/JSON/SBJsonBase.m
+c000000004A30ECC20000000000000AC1
+t1244720322
+s2753
+i"SBJsonBase.h"
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/JSON/SBJsonParser.h
+c000000004A30ECC20000000000000C0B
+t1244720322
+s3083
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/JSON/SBJsonParser.m
+c000000004A30ECC200000000000036CF
+t1244720322
+s14031
+i"SBJsonParser.h"
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/JSON/SBJsonWriter.h
+c000000004A30ECC20000000000001140
+t1244720322
+s4416
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/JSON/SBJsonWriter.m
+c000000004A30ECC20000000000001E83
+t1244720322
+s7811
+i"SBJsonWriter.h"
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/MainView.xib
+c000000004DFC87F20000000000005698
+t1308395506
+s22168
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/MainWindow.xib
+c000000004DFC754A0000000000001E18
+t1308390730
+s7704
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/NSObject+SBJson.h
+c000000004DFBA7FE00000000000008B7
+t1308338174
+s2231
+i<Foundation/Foundation.h>
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/NSObject+SBJson.m
+c000000004DFBA7FE00000000000008A6
+t1308338174
+s2214
+i"NSObject+SBJson.h"
+i"SBJsonWriter.h"
+i"SBJsonParser.h"
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJson.h
+c000000004DFBA7FE0000000000000DA2
+t1308338174
+s3490
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+i"SBJsonStreamParser.h"
+i"SBJsonStreamParserAdapter.h"
+i"SBJsonStreamWriter.h"
+i"NSObject+SBJson.h"
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonParser.h
+c000000004DFBA7FE0000000000000E0B
+t1308338174
+s3595
+i<Foundation/Foundation.h>
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonParser.m
+c000000004DFBA7FE0000000000000CC0
+t1308338174
+s3264
+i"SBJsonParser.h"
+i"SBJsonStreamParser.h"
+i"SBJsonStreamParserAdapter.h"
+i"SBJsonStreamParserAccumulator.h"
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamParser.h
+c000000004DFBA7FE0000000000001611
+t1308338174
+s5649
+i<Foundation/Foundation.h>
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamParser.m
+c000000004DFBA7FE0000000000001A21
+t1308338174
+s6689
+i"SBJsonStreamParser.h"
+i"SBJsonTokeniser.h"
+i"SBJsonStreamParserState.h"
+i<limits.h>
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamParserAccumulator.h
+c000000004DFBA7FE00000000000006D7
+t1308338174
+s1751
+i<Foundation/Foundation.h>
+i"SBJsonStreamParserAdapter.h"
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamParserAccumulator.m
+c000000004DFBA7FE000000000000079B
+t1308338174
+s1947
+i"SBJsonStreamParserAccumulator.h"
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamParserAdapter.h
+c000000004DFBA7FE0000000000001467
+t1308338174
+s5223
+i<Foundation/Foundation.h>
+i"SBJsonStreamParser.h"
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamParserAdapter.m
+c000000004DFBA7FE00000000000011C9
+t1308338174
+s4553
+i"SBJsonStreamParserAdapter.h"
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamParserState.h
+c000000004DFBA7FE0000000000000B10
+t1308338174
+s2832
+i<Foundation/Foundation.h>
+i"SBJsonTokeniser.h"
+i"SBJsonStreamParser.h"
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamParserState.m
+c000000004DFBA7FE0000000000001F6D
+t1308338174
+s8045
+i"SBJsonStreamParserState.h"
+i"SBJsonStreamParser.h"
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamWriter.h
+c000000004DFBA7FE00000000000016CF
+t1308338174
+s5839
+i<Foundation/Foundation.h>
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamWriter.m
+c000000004DFBA7FE0000000000002992
+t1308338174
+s10642
+i"SBJsonStreamWriter.h"
+i"SBJsonStreamWriterState.h"
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamWriterAccumulator.h
+c000000004DFBA7FE00000000000006B2
+t1308338174
+s1714
+i"SBJsonStreamWriter.h"
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamWriterAccumulator.m
+c000000004DFBA7FE00000000000007EB
+t1308338174
+s2027
+i"SBJsonStreamWriterAccumulator.h"
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamWriterState.h
+c000000004DFBA7FE00000000000009EC
+t1308338174
+s2540
+i<Foundation/Foundation.h>
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamWriterState.m
+c000000004DFBA7FE0000000000000F61
+t1308338174
+s3937
+i"SBJsonStreamWriterState.h"
+i"SBJsonStreamWriter.h"
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonTokeniser.h
+c000000004DFBA7FE000000000000089C
+t1308338174
+s2204
+i<Foundation/Foundation.h>
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonTokeniser.m
+c000000004DFBA7FE000000000000317A
+t1308338174
+s12666
+i"SBJsonTokeniser.h"
+i"SBJsonUTF8Stream.h"
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonUTF8Stream.h
+c000000004DFBA7FE000000000000082B
+t1308338174
+s2091
+i<Foundation/Foundation.h>
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonUTF8Stream.m
+c000000004DFBA7FE0000000000000F25
+t1308338174
+s3877
+i"SBJsonUTF8Stream.h"
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonWriter.h
+c000000004DFBA7FE00000000000010B6
+t1308338174
+s4278
+i<Foundation/Foundation.h>
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonWriter.m
+c000000004DFBA7FE0000000000000DBF
+t1308338174
+s3519
+i"SBJsonWriter.h"
+i"SBJsonStreamWriter.h"
+i"SBJsonStreamWriterAccumulator.h"
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/AboutView.o
+t1308525378
+s9892
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/AboutViewController.o
+t1308525378
+s32208
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/Combat.o
+t2
+s0
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/CombatRPG.LinkFileList
+c000000004E025B950000000000000981
+t1308777365
+s2433
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/CombatRPGAppDelegate.o
+t1308620672
+s39352
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/CombatView.o
+t1308620672
+s9904
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/CombatViewController.o
+t1308777544
+s37092
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/Dice.o
+t1308525378
+s5976
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/FlipsideView.o
+t1308390829
+s9944
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/FlipsideViewController.o
+t1308392374
+s32300
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/MainView.o
+t1308525377
+s9892
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/MainViewController.o
+t1308620672
+s34696
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/NSObject+SBJSON.o
+t1308618419
+s8188
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/NSObject+SBJson.o
+t1308618419
+s8188
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/NSString+SBJSON.o
+t1308777366
+s8040
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJSON.o
+t1308777366
+s16816
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonBase.o
+t1308777366
+s12160
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonParser.o
+t1308777366
+s29892
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonStreamParser.o
+t1308618419
+s23664
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonStreamParserAccumulator.o
+t1308618419
+s9748
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonStreamParserAdapter.o
+t1308618419
+s20540
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonStreamParserState.o
+t1308618419
+s34536
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonStreamWriter.o
+t1308618420
+s39792
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonStreamWriterAccumulator.o
+t1308618420
+s10072
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonStreamWriterState.o
+t1308618420
+s21540
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonTokeniser.o
+t1308618420
+s26124
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonUTF8Stream.o
+t1308618420
+s14876
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonWriter.o
+t1308777366
+s22092
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/combat.o
+t2
+s0
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/feedfetcher.o
+t1308616520
+s4928
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/main.o
+t1308525377
+s6004
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/untitled.o
+t2
+s0
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app
+t1308777544
+s340
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app.dSYM
+t1308777544
+s102
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app/AboutView.nib
+t1308394824
+s1799
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app/Combat.nib
+t2
+s0
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app/CombatRPG
+t1308777544
+s62128
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app/CombatView.nib
+t1308407224
+s3854
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app/FlipsideView.nib
+t1308393382
+s1802
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app/Info.plist
+t1308390819
+s572
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app/MainView.nib
+t1308395736
+s3195
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app/MainWindow.nib
+t1308390824
+s1381
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app/PkgInfo
+t1308390819
+s8
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app/combat.nib
+t2
+s0
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app/untitled.nib
+t2
+s0
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/combat.h
+c000000004DFC777000000000000000DB
+t1308391280
+s219
+i<UIKit/UIKit.h>
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/combat.m
+c000000004DFC77700000000000001071
+t1308391280
+s4209
+i"combat.h"
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/combat.xib
+c000000004DFC77700000000000001C5D
+t1308391280
+s7261
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/feedfetcher.h
+c000000004DFFE17F00000000000000E4
+t1308615039
+s228
+i<Foundation/Foundation.h>
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/feedfetcher.m
+c000000004DFFE17F00000000000000CF
+t1308615039
+s207
+i"feedfetcher.h"
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/main.m
+c000000004DFDE69E0000000000000171
+t1308485278
+s369
+i<UIKit/UIKit.h>
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/untitled.h
+c000000004DFC775500000000000000DF
+t1308391253
+s223
+i<UIKit/UIKit.h>
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/untitled.m
+c000000004DFC77550000000000001077
+t1308391253
+s4215
+i"untitled.h"
+
+N/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/untitled.xib
+c000000004DFC77550000000000001C63
+t1308391253
+s7267
+
+N/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/AboutView.h
+c000000004DFDE69D00000000000000BB
+t1308485277
+s187
+
+N/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/AboutView.m
+c000000004DFDE69D00000000000001B8
+t1308485277
+s440
+i"AboutView.h"
+
+N/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/AboutView.xib
+c000000004DFC85440000000000004D2C
+t1308394820
+s19756
+
+N/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/AboutViewController.h
+c000000004DFDE69D00000000000001FD
+t1308485277
+s509
+
+N/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/AboutViewController.m
+c000000004DFDE69D0000000000000449
+t1308485277
+s1097
+i"AboutViewController.h"
+
+N/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/Classes/CombatRPGAppDelegate.h
+c000000004DFDE69E00000000000001C8
+t1308485278
+s456
+
+N/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/Classes/CombatRPGAppDelegate.m
+c000000004DFDE69E0000000000000335
+t1308485278
+s821
+i"CombatRPGAppDelegate.h"
+i"MainViewController.h"
+
+N/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/Classes/MainView.h
+c000000004DFDE69E00000000000000D1
+t1308485278
+s209
+i<UIKit/UIKit.h>
+
+N/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/Classes/MainView.m
+c000000004DFDE69E00000000000001B5
+t1308485278
+s437
+i"MainView.h"
+
+N/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/Classes/MainViewController.h
+c000000004DFDE69E0000000000000183
+t1308485278
+s387
+i"CombatViewController.h"
+i"AboutViewController.h"
+
+N/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/Classes/MainViewController.m
+c000000004DFDE69E0000000000000A53
+t1308485278
+s2643
+i"MainViewController.h"
+i"MainView.h"
+
+N/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/CombatRPG_Prefix.pch
+c000000004DFC754A0000000000000144
+t1308390730
+s324
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/CombatView.h
+c000000004DFDE69E00000000000000BD
+t1308485278
+s189
+
+N/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/CombatView.m
+c000000004DFDE69E00000000000001BB
+t1308485278
+s443
+i"CombatView.h"
+
+N/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/CombatView.xib
+c000000004DFCB5A9000000000000689E
+t1308407209
+s26782
+
+N/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/CombatViewController.h
+c000000004DFDE69E00000000000002CA
+t1308485278
+s714
+
+N/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/CombatViewController.m
+c000000004DFDE782000000000000060B
+t1308485506
+s1547
+i"CombatViewController.h"
+i"Dice.h"
+
+N/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/Dice.h
+c000000004DFDE69E0000000000000117
+t1308485278
+s279
+i<Foundation/Foundation.h>
+
+N/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/Dice.m
+c000000004DFDF19600000000000003A2
+t1308488086
+s930
+i"Dice.h"
+
+N/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/MainView.xib
+c000000004DFC87F20000000000005698
+t1308395506
+s22168
+
+N/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/MainWindow.xib
+c000000004DFC754A0000000000001E18
+t1308390730
+s7704
+
+N/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/AboutView.o
+t1308525378
+s9892
+
+N/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/AboutViewController.o
+t1308525378
+s32208
+
+N/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/CombatRPG.LinkFileList
+c000000004DFE8338000000000000055C
+t1308525368
+s1372
+
+N/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/CombatRPGAppDelegate.o
+t1308525377
+s39352
+
+N/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/CombatView.o
+t1308525377
+s9904
+
+N/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/CombatViewController.o
+t1308525378
+s35580
+
+N/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/Dice.o
+t1308525378
+s5976
+
+N/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/MainView.o
+t1308525377
+s9892
+
+N/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/MainViewController.o
+t1308525377
+s34696
+
+N/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/main.o
+t1308525377
+s6004
+
+N/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app
+t1308525379
+s340
+
+N/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app.dSYM
+t1308525379
+s102
+
+N/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app/AboutView.nib
+t1308394824
+s1799
+
+N/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app/CombatRPG
+t1308525379
+s30472
+
+N/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app/CombatView.nib
+t1308407224
+s3854
+
+N/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app/Info.plist
+t1308390819
+s572
+
+N/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app/MainView.nib
+t1308395736
+s3195
+
+N/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app/MainWindow.nib
+t1308390824
+s1381
+
+N/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app/PkgInfo
+t1308390819
+s8
+
+N/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/main.m
+c000000004DFDE69E0000000000000171
+t1308485278
+s369
+i<UIKit/UIKit.h>
+
+N/var/folders/1Y/1YaM4pEaHyaiBAFH5GPoek+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CombatRPG_Prefix-buihvbuztvqjhdglvnhgtstykzpg/CombatRPG_Prefix.pch.gch
+t1308525377
+s13039056
+
+N/var/folders/1Y/1YaM4pEaHyaiBAFH5GPoek+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CombatRPG_Prefix-dnmfzsptbwnoolassitwxfxkzbkv/CombatRPG_Prefix.pch.gch
+t1308390828
+s13039056
+
+NCombatRPG-Info.plist
+c000000004DFC754A000000000000038D
+t1308390730
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies330470343#330470343#0(0"0(0#1#0"4300885448#0"0#
+
+CCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/AboutView.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/AboutView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330178078.761777
+e330178078.872076
+r1
+xCompileC
+xbuild/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/AboutView.o
+x/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/AboutView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/AboutView.m330178078#330178078#0(0"0(0#0#68"/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/AboutView.m4300885448#2123"    cd /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-generated-files.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-own-target-headers.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-all-target-headers.hmap -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-project-headers.hmap -F/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/include -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources/i386 -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources -include /var/folders/1Y/1YaM4pEaHyaiBAFH5GPoek+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CombatRPG_Prefix-dnmfzsptbwnoolassitwxfxkzbkv/CombatRPG_Prefix.pch -c /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/AboutView.m -o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/AboutView.o0#
+
+CCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/AboutView.o /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/AboutView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330218178.021278
+e330218178.190778
+r1
+xCompileC
+xbuild/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/AboutView.o
+x/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/AboutView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/AboutView.m330218178#330218178#0(0"0(0#0#68"/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/AboutView.m4300885448#2123"    cd /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-generated-files.hmap -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-own-target-headers.hmap -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-all-target-headers.hmap -iquote /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-project-headers.hmap -F/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/include -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources/i386 -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources -include /var/folders/1Y/1YaM4pEaHyaiBAFH5GPoek+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CombatRPG_Prefix-buihvbuztvqjhdglvnhgtstykzpg/CombatRPG_Prefix.pch -c /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/AboutView.m -o /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/AboutView.o0#
+
+CCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/AboutViewController.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/AboutViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330178078.843857
+e330178078.940430
+r1
+xCompileC
+xbuild/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/AboutViewController.o
+x/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/AboutViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/AboutViewController.m330178078#330178079#0(0"0(0#0#78"/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/AboutViewController.m4300885448#2143"    cd /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-generated-files.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-own-target-headers.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-all-target-headers.hmap -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-project-headers.hmap -F/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/include -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources/i386 -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources -include /var/folders/1Y/1YaM4pEaHyaiBAFH5GPoek+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CombatRPG_Prefix-dnmfzsptbwnoolassitwxfxkzbkv/CombatRPG_Prefix.pch -c /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/AboutViewController.m -o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/AboutViewController.o0#
+
+CCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/AboutViewController.o /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/AboutViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330218178.057429
+e330218178.393772
+r1
+xCompileC
+xbuild/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/AboutViewController.o
+x/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/AboutViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/AboutViewController.m330218178#330218178#0(0"0(0#0#78"/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/AboutViewController.m4300885448#2143"    cd /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-generated-files.hmap -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-own-target-headers.hmap -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-all-target-headers.hmap -iquote /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-project-headers.hmap -F/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/include -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources/i386 -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources -include /var/folders/1Y/1YaM4pEaHyaiBAFH5GPoek+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CombatRPG_Prefix-buihvbuztvqjhdglvnhgtstykzpg/CombatRPG_Prefix.pch -c /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/AboutViewController.m -o /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/AboutViewController.o0#
+
+CCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/Combat.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Combat.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/CombatRPGAppDelegate.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Classes/CombatRPGAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330313472.331938
+e330313472.516816
+r1
+xCompileC
+xbuild/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/CombatRPGAppDelegate.o
+x/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Classes/CombatRPGAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Classes/CombatRPGAppDelegate.m330313472#330313472#0(0"0(0#0#87"/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Classes/CombatRPGAppDelegate.m4300885448#2153"    cd /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-generated-files.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-own-target-headers.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-all-target-headers.hmap -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-project-headers.hmap -F/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/include -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources/i386 -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources -include /var/folders/1Y/1YaM4pEaHyaiBAFH5GPoek+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CombatRPG_Prefix-dnmfzsptbwnoolassitwxfxkzbkv/CombatRPG_Prefix.pch -c /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Classes/CombatRPGAppDelegate.m -o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/CombatRPGAppDelegate.o0#
+
+CCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/CombatRPGAppDelegate.o /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/Classes/CombatRPGAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330218177.169884
+e330218177.550352
+r1
+xCompileC
+xbuild/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/CombatRPGAppDelegate.o
+x/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/Classes/CombatRPGAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/Classes/CombatRPGAppDelegate.m330218177#330218177#0(0"0(0#0#87"/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/Classes/CombatRPGAppDelegate.m4300885448#2153"    cd /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-generated-files.hmap -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-own-target-headers.hmap -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-all-target-headers.hmap -iquote /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-project-headers.hmap -F/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/include -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources/i386 -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources -include /var/folders/1Y/1YaM4pEaHyaiBAFH5GPoek+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CombatRPG_Prefix-buihvbuztvqjhdglvnhgtstykzpg/CombatRPG_Prefix.pch -c /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/Classes/CombatRPGAppDelegate.m -o /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/CombatRPGAppDelegate.o0#
+
+CCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/CombatView.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/CombatView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330313472.516918
+e330313472.752960
+r1
+xCompileC
+xbuild/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/CombatView.o
+x/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/CombatView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/CombatView.m330313472#330313472#0(0"0(0#0#69"/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/CombatView.m4300885448#2125"    cd /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-generated-files.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-own-target-headers.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-all-target-headers.hmap -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-project-headers.hmap -F/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/include -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources/i386 -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources -include /var/folders/1Y/1YaM4pEaHyaiBAFH5GPoek+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CombatRPG_Prefix-dnmfzsptbwnoolassitwxfxkzbkv/CombatRPG_Prefix.pch -c /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/CombatView.m -o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/CombatView.o0#
+
+CCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/CombatView.o /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/CombatView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330218177.656134
+e330218177.905732
+r1
+xCompileC
+xbuild/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/CombatView.o
+x/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/CombatView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/CombatView.m330218177#330218177#0(0"0(0#0#69"/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/CombatView.m4300885448#2125"    cd /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-generated-files.hmap -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-own-target-headers.hmap -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-all-target-headers.hmap -iquote /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-project-headers.hmap -F/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/include -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources/i386 -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources -include /var/folders/1Y/1YaM4pEaHyaiBAFH5GPoek+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CombatRPG_Prefix-buihvbuztvqjhdglvnhgtstykzpg/CombatRPG_Prefix.pch -c /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/CombatView.m -o /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/CombatView.o0#
+
+CCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/CombatViewController.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/CombatViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330470343.841256
+e330470344.146978
+r1
+xCompileC
+xbuild/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/CombatViewController.o
+x/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/CombatViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/CombatViewController.m330470343#330470344#0(0"0(0#0#79"/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/CombatViewController.m4300885448#2145"    cd /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-generated-files.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-own-target-headers.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-all-target-headers.hmap -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-project-headers.hmap -F/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/include -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources/i386 -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources -include /var/folders/1Y/1YaM4pEaHyaiBAFH5GPoek+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CombatRPG_Prefix-dnmfzsptbwnoolassitwxfxkzbkv/CombatRPG_Prefix.pch -c /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/CombatViewController.m -o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/CombatViewController.o0#
+
+CCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/CombatViewController.o /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/CombatViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330218177.905838
+e330218178.057334
+r1
+xCompileC
+xbuild/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/CombatViewController.o
+x/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/CombatViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/CombatViewController.m330218177#330218178#0(0"0(0#0#79"/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/CombatViewController.m4300885448#2145"    cd /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-generated-files.hmap -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-own-target-headers.hmap -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-all-target-headers.hmap -iquote /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-project-headers.hmap -F/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/include -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources/i386 -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources -include /var/folders/1Y/1YaM4pEaHyaiBAFH5GPoek+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CombatRPG_Prefix-buihvbuztvqjhdglvnhgtstykzpg/CombatRPG_Prefix.pch -c /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/CombatViewController.m -o /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/CombatViewController.o0#
+
+CCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/Dice.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Dice.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330178203.290003
+e330178203.441598
+r1
+xCompileC
+xbuild/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/Dice.o
+x/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Dice.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Dice.m330178203#330178203#0(0"0(0#0#63"/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Dice.m4300885448#2113"    cd /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-generated-files.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-own-target-headers.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-all-target-headers.hmap -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-project-headers.hmap -F/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/include -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources/i386 -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources -include /var/folders/1Y/1YaM4pEaHyaiBAFH5GPoek+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CombatRPG_Prefix-dnmfzsptbwnoolassitwxfxkzbkv/CombatRPG_Prefix.pch -c /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Dice.m -o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/Dice.o0#
+
+CCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/Dice.o /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/Dice.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330218178.190925
+e330218178.657011
+r1
+xCompileC
+xbuild/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/Dice.o
+x/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/Dice.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/Dice.m330218178#330218178#0(0"0(0#0#63"/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/Dice.m4300885448#2113"    cd /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-generated-files.hmap -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-own-target-headers.hmap -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-all-target-headers.hmap -iquote /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-project-headers.hmap -F/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/include -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources/i386 -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources -include /var/folders/1Y/1YaM4pEaHyaiBAFH5GPoek+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CombatRPG_Prefix-buihvbuztvqjhdglvnhgtstykzpg/CombatRPG_Prefix.pch -c /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/Dice.m -o /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/Dice.o0#
+
+CCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/FlipsideView.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Classes/FlipsideView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330083628.931619
+e330083629.082372
+r1
+xCompileC
+xbuild/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/FlipsideView.o
+x/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Classes/FlipsideView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Classes/FlipsideView.m330083628#330083629#0(0"0(0#0#79"/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Classes/FlipsideView.m4300885448#2137"    cd /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-generated-files.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-own-target-headers.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-all-target-headers.hmap -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-project-headers.hmap -F/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/include -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources/i386 -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources -include /var/folders/1Y/1YaM4pEaHyaiBAFH5GPoek+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CombatRPG_Prefix-dnmfzsptbwnoolassitwxfxkzbkv/CombatRPG_Prefix.pch -c /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Classes/FlipsideView.m -o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/FlipsideView.o0#
+
+CCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/FlipsideViewController.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Classes/FlipsideViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330085174.387610
+e330085174.665800
+r1
+xCompileC
+xbuild/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/FlipsideViewController.o
+x/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Classes/FlipsideViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@97"Compile /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Classes/FlipsideViewController.m330085174#330085174#0(0"0(0#0#89"/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Classes/FlipsideViewController.m4300885448#2157"    cd /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-generated-files.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-own-target-headers.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-all-target-headers.hmap -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-project-headers.hmap -F/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/include -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources/i386 -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources -include /var/folders/1Y/1YaM4pEaHyaiBAFH5GPoek+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CombatRPG_Prefix-dnmfzsptbwnoolassitwxfxkzbkv/CombatRPG_Prefix.pch -c /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Classes/FlipsideViewController.m -o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/FlipsideViewController.o0#
+
+CCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/MainView.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Classes/MainView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330178078.563717
+e330178078.669339
+r1
+xCompileC
+xbuild/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/MainView.o
+x/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Classes/MainView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Classes/MainView.m330178078#330178078#0(0"0(0#0#75"/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Classes/MainView.m4300885448#2129"    cd /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-generated-files.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-own-target-headers.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-all-target-headers.hmap -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-project-headers.hmap -F/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/include -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources/i386 -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources -include /var/folders/1Y/1YaM4pEaHyaiBAFH5GPoek+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CombatRPG_Prefix-dnmfzsptbwnoolassitwxfxkzbkv/CombatRPG_Prefix.pch -c /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Classes/MainView.m -o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/MainView.o0#
+
+CCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/MainView.o /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/Classes/MainView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330218177.394611
+e330218177.656036
+r1
+xCompileC
+xbuild/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/MainView.o
+x/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/Classes/MainView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/Classes/MainView.m330218177#330218177#0(0"0(0#0#75"/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/Classes/MainView.m4300885448#2129"    cd /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-generated-files.hmap -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-own-target-headers.hmap -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-all-target-headers.hmap -iquote /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-project-headers.hmap -F/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/include -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources/i386 -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources -include /var/folders/1Y/1YaM4pEaHyaiBAFH5GPoek+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CombatRPG_Prefix-buihvbuztvqjhdglvnhgtstykzpg/CombatRPG_Prefix.pch -c /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/Classes/MainView.m -o /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/MainView.o0#
+
+CCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/MainViewController.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330313472.333460
+e330313472.671647
+r1
+xCompileC
+xbuild/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/MainViewController.o
+x/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Classes/MainViewController.m330313472#330313472#0(0"0(0#0#85"/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Classes/MainViewController.m4300885448#2149"    cd /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-generated-files.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-own-target-headers.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-all-target-headers.hmap -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-project-headers.hmap -F/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/include -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources/i386 -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources -include /var/folders/1Y/1YaM4pEaHyaiBAFH5GPoek+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CombatRPG_Prefix-dnmfzsptbwnoolassitwxfxkzbkv/CombatRPG_Prefix.pch -c /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Classes/MainViewController.m -o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/MainViewController.o0#
+
+CCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/MainViewController.o /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330218177.550461
+e330218178.021168
+r1
+xCompileC
+xbuild/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/MainViewController.o
+x/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/Classes/MainViewController.m330218177#330218178#0(0"0(0#0#85"/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/Classes/MainViewController.m4300885448#2149"    cd /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-generated-files.hmap -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-own-target-headers.hmap -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-all-target-headers.hmap -iquote /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-project-headers.hmap -F/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/include -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources/i386 -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources -include /var/folders/1Y/1YaM4pEaHyaiBAFH5GPoek+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CombatRPG_Prefix-buihvbuztvqjhdglvnhgtstykzpg/CombatRPG_Prefix.pch -c /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/Classes/MainViewController.m -o /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/MainViewController.o0#
+
+CCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/NSObject+SBJSON.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/NSObject+SBJson.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/NSObject+SBJson.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330311219.164710
+e330311219.261683
+r1
+xCompileC
+xbuild/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/NSObject+SBJson.o
+x/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/NSObject+SBJson.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/NSObject+SBJson.m330311219#330311219#0(0"0(0#0#74"/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/NSObject+SBJson.m4300885448#2135"    cd /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-generated-files.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-own-target-headers.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-all-target-headers.hmap -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-project-headers.hmap -F/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/include -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources/i386 -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources -include /var/folders/1Y/1YaM4pEaHyaiBAFH5GPoek+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CombatRPG_Prefix-dnmfzsptbwnoolassitwxfxkzbkv/CombatRPG_Prefix.pch -c /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/NSObject+SBJson.m -o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/NSObject+SBJson.o0#
+
+CCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/NSString+SBJSON.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330470165.821137
+e330470166.054332
+r1
+xCompileC
+xbuild/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/NSString+SBJSON.o
+x/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/JSON/NSString+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/JSON/NSString+SBJSON.m330470165#330470166#0(0"0(0#0#79"/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/JSON/NSString+SBJSON.m4300885448#2140"    cd /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-generated-files.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-own-target-headers.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-all-target-headers.hmap -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-project-headers.hmap -F/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/include -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources/i386 -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources -include /var/folders/1Y/1YaM4pEaHyaiBAFH5GPoek+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CombatRPG_Prefix-dnmfzsptbwnoolassitwxfxkzbkv/CombatRPG_Prefix.pch -c /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/JSON/NSString+SBJSON.m -o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/NSString+SBJSON.o0#
+
+CCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJSON.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330470166.054433
+e330470166.152007
+r1
+xCompileC
+xbuild/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJSON.o
+x/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/JSON/SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/JSON/SBJSON.m330470166#330470166#0(0"0(0#0#70"/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/JSON/SBJSON.m4300885448#2122"    cd /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-generated-files.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-own-target-headers.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-all-target-headers.hmap -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-project-headers.hmap -F/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/include -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources/i386 -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources -include /var/folders/1Y/1YaM4pEaHyaiBAFH5GPoek+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CombatRPG_Prefix-dnmfzsptbwnoolassitwxfxkzbkv/CombatRPG_Prefix.pch -c /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/JSON/SBJSON.m -o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJSON.o0#
+
+CCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonBase.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330470166.100785
+e330470166.258450
+r1
+xCompileC
+xbuild/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonBase.o
+x/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/JSON/SBJsonBase.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/JSON/SBJsonBase.m330470166#330470166#0(0"0(0#0#74"/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/JSON/SBJsonBase.m4300885448#2130"    cd /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-generated-files.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-own-target-headers.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-all-target-headers.hmap -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-project-headers.hmap -F/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/include -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources/i386 -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources -include /var/folders/1Y/1YaM4pEaHyaiBAFH5GPoek+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CombatRPG_Prefix-dnmfzsptbwnoolassitwxfxkzbkv/CombatRPG_Prefix.pch -c /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/JSON/SBJsonBase.m -o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonBase.o0#
+
+CCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonParser.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330470166.152108
+e330470166.379932
+r1
+xCompileC
+xbuild/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonParser.o
+x/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/JSON/SBJsonParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/JSON/SBJsonParser.m330470166#330470166#0(0"0(0#0#76"/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/JSON/SBJsonParser.m4300885448#2134"    cd /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-generated-files.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-own-target-headers.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-all-target-headers.hmap -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-project-headers.hmap -F/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/include -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources/i386 -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources -include /var/folders/1Y/1YaM4pEaHyaiBAFH5GPoek+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CombatRPG_Prefix-dnmfzsptbwnoolassitwxfxkzbkv/CombatRPG_Prefix.pch -c /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/JSON/SBJsonParser.m -o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonParser.o0#
+
+CCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonParser.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330311219.261786
+e330311219.471192
+r1
+xCompileC
+xbuild/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonParser.o
+x/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonParser.m330311219#330311219#0(0"0(0#0#71"/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonParser.m4300885448#2129"    cd /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-generated-files.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-own-target-headers.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-all-target-headers.hmap -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-project-headers.hmap -F/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/include -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources/i386 -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources -include /var/folders/1Y/1YaM4pEaHyaiBAFH5GPoek+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CombatRPG_Prefix-dnmfzsptbwnoolassitwxfxkzbkv/CombatRPG_Prefix.pch -c /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonParser.m -o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonParser.o0#
+
+CCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonStreamParser.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330311219.266339
+e330311219.606978
+r1
+xCompileC
+xbuild/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonStreamParser.o
+x/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamParser.m330311219#330311219#0(0"0(0#0#77"/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamParser.m4300885448#2141"    cd /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-generated-files.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-own-target-headers.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-all-target-headers.hmap -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-project-headers.hmap -F/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/include -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources/i386 -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources -include /var/folders/1Y/1YaM4pEaHyaiBAFH5GPoek+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CombatRPG_Prefix-dnmfzsptbwnoolassitwxfxkzbkv/CombatRPG_Prefix.pch -c /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamParser.m -o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonStreamParser.o0#
+
+CCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonStreamParserAccumulator.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamParserAccumulator.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330311219.471291
+e330311219.772027
+r1
+xCompileC
+xbuild/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonStreamParserAccumulator.o
+x/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamParserAccumulator.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamParserAccumulator.m330311219#330311219#0(0"0(0#0#88"/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamParserAccumulator.m4300885448#2163"    cd /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-generated-files.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-own-target-headers.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-all-target-headers.hmap -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-project-headers.hmap -F/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/include -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources/i386 -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources -include /var/folders/1Y/1YaM4pEaHyaiBAFH5GPoek+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CombatRPG_Prefix-dnmfzsptbwnoolassitwxfxkzbkv/CombatRPG_Prefix.pch -c /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamParserAccumulator.m -o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonStreamParserAccumulator.o0#
+
+CCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonStreamParserAdapter.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamParserAdapter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330311219.607208
+e330311219.900636
+r1
+xCompileC
+xbuild/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonStreamParserAdapter.o
+x/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamParserAdapter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamParserAdapter.m330311219#330311219#0(0"0(0#0#84"/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamParserAdapter.m4300885448#2155"    cd /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-generated-files.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-own-target-headers.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-all-target-headers.hmap -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-project-headers.hmap -F/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/include -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources/i386 -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources -include /var/folders/1Y/1YaM4pEaHyaiBAFH5GPoek+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CombatRPG_Prefix-dnmfzsptbwnoolassitwxfxkzbkv/CombatRPG_Prefix.pch -c /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamParserAdapter.m -o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonStreamParserAdapter.o0#
+
+CCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonStreamParserState.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamParserState.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330311219.772127
+e330311219.951797
+r1
+xCompileC
+xbuild/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonStreamParserState.o
+x/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamParserState.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamParserState.m330311219#330311219#0(0"0(0#0#82"/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamParserState.m4300885448#2151"    cd /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-generated-files.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-own-target-headers.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-all-target-headers.hmap -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-project-headers.hmap -F/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/include -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources/i386 -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources -include /var/folders/1Y/1YaM4pEaHyaiBAFH5GPoek+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CombatRPG_Prefix-dnmfzsptbwnoolassitwxfxkzbkv/CombatRPG_Prefix.pch -c /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamParserState.m -o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonStreamParserState.o0#
+
+CCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonStreamWriter.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330311219.900751
+e330311220.266496
+r1
+xCompileC
+xbuild/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonStreamWriter.o
+x/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamWriter.m330311219#330311220#0(0"0(0#0#77"/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamWriter.m4300885448#2141"    cd /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-generated-files.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-own-target-headers.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-all-target-headers.hmap -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-project-headers.hmap -F/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/include -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources/i386 -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources -include /var/folders/1Y/1YaM4pEaHyaiBAFH5GPoek+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CombatRPG_Prefix-dnmfzsptbwnoolassitwxfxkzbkv/CombatRPG_Prefix.pch -c /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamWriter.m -o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonStreamWriter.o0#
+
+CCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonStreamWriterAccumulator.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamWriterAccumulator.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330311219.951899
+e330311220.052027
+r1
+xCompileC
+xbuild/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonStreamWriterAccumulator.o
+x/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamWriterAccumulator.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamWriterAccumulator.m330311219#330311220#0(0"0(0#0#88"/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamWriterAccumulator.m4300885448#2163"    cd /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-generated-files.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-own-target-headers.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-all-target-headers.hmap -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-project-headers.hmap -F/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/include -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources/i386 -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources -include /var/folders/1Y/1YaM4pEaHyaiBAFH5GPoek+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CombatRPG_Prefix-dnmfzsptbwnoolassitwxfxkzbkv/CombatRPG_Prefix.pch -c /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamWriterAccumulator.m -o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonStreamWriterAccumulator.o0#
+
+CCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonStreamWriterState.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamWriterState.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330311220.052126
+e330311220.240391
+r1
+xCompileC
+xbuild/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonStreamWriterState.o
+x/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamWriterState.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamWriterState.m330311220#330311220#0(0"0(0#0#82"/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamWriterState.m4300885448#2151"    cd /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-generated-files.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-own-target-headers.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-all-target-headers.hmap -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-project-headers.hmap -F/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/include -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources/i386 -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources -include /var/folders/1Y/1YaM4pEaHyaiBAFH5GPoek+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CombatRPG_Prefix-dnmfzsptbwnoolassitwxfxkzbkv/CombatRPG_Prefix.pch -c /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonStreamWriterState.m -o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonStreamWriterState.o0#
+
+CCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonTokeniser.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonTokeniser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330311220.240494
+e330311220.389613
+r1
+xCompileC
+xbuild/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonTokeniser.o
+x/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonTokeniser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonTokeniser.m: In function '-[SBJsonTokeniser getStringToken:]':
+o/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonTokeniser.m:196: warning: implicit declaration of function 'CFStringIsSurrogateHighCharacter'
+o/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonTokeniser.m:209: warning: implicit declaration of function 'CFStringIsSurrogateLowCharacter'
+lSLF07#2@82"Compile /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonTokeniser.m330311220#330311220#0(439"/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonTokeniser.m: In function '-[SBJsonTokeniser getStringToken:]':/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonTokeniser.m:196: warning: implicit declaration of function 'CFStringIsSurrogateHighCharacter'/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonTokeniser.m:209: warning: implicit declaration of function 'CFStringIsSurrogateLowCharacter'2(22@67"Implicit declaration of function 'CFStringIsSurrogateHighCharacter'330311220#126#157#0(6@74"/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonTokeniser.m330030974#196#0#196#0#36"implicit declaration of function '*'0(22@66"Implicit declaration of function 'CFStringIsSurrogateLowCharacter'330311220#283#156#0(6@74"/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonTokeniser.m330030974#209#0#209#0#36"implicit declaration of function '*'0(0#0#74"/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonTokeniser.m4300885448#2135"    cd /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-generated-files.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-own-target-headers.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-all-target-headers.hmap -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-project-headers.hmap -F/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/include -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources/i386 -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources -include /var/folders/1Y/1YaM4pEaHyaiBAFH5GPoek+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CombatRPG_Prefix-dnmfzsptbwnoolassitwxfxkzbkv/CombatRPG_Prefix.pch -c /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonTokeniser.m -o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonTokeniser.o0#
+
+CCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonUTF8Stream.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonUTF8Stream.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330311220.266605
+e330311220.381372
+r1
+xCompileC
+xbuild/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonUTF8Stream.o
+x/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonUTF8Stream.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonUTF8Stream.m330311220#330311220#0(0"0(0#0#75"/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonUTF8Stream.m4300885448#2137"    cd /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-generated-files.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-own-target-headers.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-all-target-headers.hmap -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-project-headers.hmap -F/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/include -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources/i386 -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources -include /var/folders/1Y/1YaM4pEaHyaiBAFH5GPoek+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CombatRPG_Prefix-dnmfzsptbwnoolassitwxfxkzbkv/CombatRPG_Prefix.pch -c /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonUTF8Stream.m -o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonUTF8Stream.o0#
+
+CCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonWriter.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330470166.258594
+e330470166.383539
+r1
+xCompileC
+xbuild/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonWriter.o
+x/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/JSON/SBJsonWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/JSON/SBJsonWriter.m330470166#330470166#0(0"0(0#0#76"/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/JSON/SBJsonWriter.m4300885448#2134"    cd /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-generated-files.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-own-target-headers.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-all-target-headers.hmap -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-project-headers.hmap -F/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/include -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources/i386 -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources -include /var/folders/1Y/1YaM4pEaHyaiBAFH5GPoek+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CombatRPG_Prefix-dnmfzsptbwnoolassitwxfxkzbkv/CombatRPG_Prefix.pch -c /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/JSON/SBJsonWriter.m -o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonWriter.o0#
+
+CCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonWriter.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330311220.381486
+e330311220.582833
+r1
+xCompileC
+xbuild/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonWriter.o
+x/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonWriter.m330311220#330311220#0(0"0(0#0#71"/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonWriter.m4300885448#2129"    cd /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-generated-files.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-own-target-headers.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-all-target-headers.hmap -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-project-headers.hmap -F/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/include -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources/i386 -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources -include /var/folders/1Y/1YaM4pEaHyaiBAFH5GPoek+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CombatRPG_Prefix-dnmfzsptbwnoolassitwxfxkzbkv/CombatRPG_Prefix.pch -c /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/SBJsonWriter.m -o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/SBJsonWriter.o0#
+
+CCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/combat.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/combat.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/feedfetcher.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/feedfetcher.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330309319.782839
+e330309320.848248
+r1
+xCompileC
+xbuild/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/feedfetcher.o
+x/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/feedfetcher.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/feedfetcher.m330309319#330309320#0(0"0(0#0#70"/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/feedfetcher.m4300885448#2127"    cd /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-generated-files.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-own-target-headers.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-all-target-headers.hmap -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-project-headers.hmap -F/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/include -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources/i386 -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources -include /var/folders/1Y/1YaM4pEaHyaiBAFH5GPoek+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CombatRPG_Prefix-dnmfzsptbwnoolassitwxfxkzbkv/CombatRPG_Prefix.pch -c /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/feedfetcher.m -o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/feedfetcher.o0#
+
+CCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/main.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330178078.455327
+e330178078.563497
+r1
+xCompileC
+xbuild/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/main.o
+x/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/main.m330178078#330178078#0(0"0(0#0#63"/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/main.m4300885448#2113"    cd /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-generated-files.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-own-target-headers.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-all-target-headers.hmap -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-project-headers.hmap -F/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/include -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources/i386 -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources -include /var/folders/1Y/1YaM4pEaHyaiBAFH5GPoek+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CombatRPG_Prefix-dnmfzsptbwnoolassitwxfxkzbkv/CombatRPG_Prefix.pch -c /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/main.m -o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/main.o0#
+
+CCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/main.o /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330218177.168621
+e330218177.394520
+r1
+xCompileC
+xbuild/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/main.o
+x/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/main.m330218177#330218177#0(0"0(0#0#63"/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/main.m4300885448#2113"    cd /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-generated-files.hmap -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-own-target-headers.hmap -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-all-target-headers.hmap -iquote /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-project-headers.hmap -F/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/include -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources/i386 -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources -include /var/folders/1Y/1YaM4pEaHyaiBAFH5GPoek+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CombatRPG_Prefix-buihvbuztvqjhdglvnhgtstykzpg/CombatRPG_Prefix.pch -c /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/main.m -o /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/main.o0#
+
+CCompileC build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/untitled.o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/untitled.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/AboutView.xib
+s330087623.054531
+e330087624.209664
+r1
+xCompileXIB
+x/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/AboutView.xib
+lSLF07#2@24"CompileXIB AboutView.xib330087623#330087624#0(0"0(0#0#70"/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/AboutView.xib13229551545876592#548"    cd /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app/AboutView.nib /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/AboutView.xib0#
+
+CCompileXIB /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/Combat.xib
+r0
+
+CCompileXIB /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/CombatRPG-1.moved-aside/CombatView.xib
+r0
+
+CCompileXIB /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/CombatView.xib
+s330100023.262416
+e330100024.249004
+r1
+xCompileXIB
+x/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/CombatView.xib
+lSLF07#2@25"CompileXIB CombatView.xib330100023#330100024#0(0"0(0#0#71"/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/CombatView.xib4300885448#550"    cd /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app/CombatView.nib /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/CombatView.xib0#
+
+CCompileXIB /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/FlipsideView.xib
+s330086181.548394
+e330086182.597226
+r1
+xCompileXIB
+x/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/FlipsideView.xib
+lSLF07#2@27"CompileXIB FlipsideView.xib330086181#330086182#0(0"0(0#0#73"/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/FlipsideView.xib4300885448#554"    cd /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app/FlipsideView.nib /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/FlipsideView.xib0#
+
+CCompileXIB /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/MainView.xib
+s330088535.988350
+e330088536.765572
+r1
+xCompileXIB
+x/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/MainView.xib
+lSLF07#2@23"CompileXIB MainView.xib330088535#330088536#0(0"0(0#0#69"/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/MainView.xib4300885448#546"    cd /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app/MainView.nib /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/MainView.xib0#
+
+CCompileXIB /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/MainWindow.xib
+s330083622.816626
+e330083624.539422
+r1
+xCompileXIB
+x/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib330083622#330083624#0(0"0(0#0#71"/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/MainWindow.xib4300885448#550"    cd /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app/MainWindow.nib /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/MainWindow.xib0#
+
+CCompileXIB /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/combat.xib
+r0
+
+CCompileXIB /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/untitled.xib
+r0
+
+CCompileXIB /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/AboutView.xib
+r0
+
+CCompileXIB /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/CombatView.xib
+r0
+
+CCompileXIB /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/MainView.xib
+r0
+
+CCompileXIB /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/MainWindow.xib
+r0
+
+CGenerateDSYMFile /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app.dSYM /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app/CombatRPG
+s330470344.176654
+e330470344.208084
+r1
+xGenerateDSYMFile
+x/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app.dSYM
+x/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app/CombatRPG
+lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/CombatRPG.app.dSYM build/Debug-iphonesimulator/CombatRPG.app/CombatRPG330470344#330470344#0(0"0(0#0#108"/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app/CombatRPG4300885448#455"    cd /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/usr/bin/dsymutil /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app/CombatRPG -o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app.dSYM0#
+
+CGenerateDSYMFile /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app.dSYM /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app/CombatRPG
+s330218179.277330
+e330218179.368715
+r1
+xGenerateDSYMFile
+x/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app.dSYM
+x/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app/CombatRPG
+lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/CombatRPG.app.dSYM build/Debug-iphonesimulator/CombatRPG.app/CombatRPG330218179#330218179#0(0"0(0#0#108"/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app/CombatRPG4300885448#455"    cd /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/usr/bin/dsymutil /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app/CombatRPG -o /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app.dSYM0#
+
+CLd /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app/CombatRPG normal i386
+s330470344.147065
+e330470344.176552
+r1
+xLd
+x/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app/CombatRPG
+xnormal
+xi386
+lSLF07#2@113"Link /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app/CombatRPG330470344#330470344#0(0"0(0#0#0"4300885448#980"    cd /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -L/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator -F/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator -filelist /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/CombatRPG.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app/CombatRPG0#
+
+CLd /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app/CombatRPG normal i386
+s330218178.657109
+e330218179.277116
+r1
+xLd
+x/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app/CombatRPG
+xnormal
+xi386
+lSLF07#2@113"Link /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app/CombatRPG330218178#330218179#0(0"0(0#0#0"4300885448#980"    cd /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -L/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator -F/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator -filelist /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/Objects-normal/i386/CombatRPG.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app/CombatRPG0#
+
+CProcessInfoPlistFile /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app/Info.plist CombatRPG-Info.plist
+s330083619.111827
+e330083619.241765
+r1
+xProcessInfoPlistFile
+x/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app/Info.plist
+xCombatRPG-Info.plist
+lSLF07#2@28"Process CombatRPG-Info.plist330083619#330083619#0(0"0(0#0#77"/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/CombatRPG-Info.plist4300885448#547"    cd /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility CombatRPG-Info.plist -genpkginfo /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app/Info.plist0#
+
+CProcessInfoPlistFile /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app/Info.plist CombatRPG-Info.plist
+r0
+
+CProcessPCH /var/folders/1Y/1YaM4pEaHyaiBAFH5GPoek+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CombatRPG_Prefix-buihvbuztvqjhdglvnhgtstykzpg/CombatRPG_Prefix.pch.gch CombatRPG_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s330218169.895305
+e330218177.168482
+r1
+xProcessPCH
+x/var/folders/1Y/1YaM4pEaHyaiBAFH5GPoek+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CombatRPG_Prefix-buihvbuztvqjhdglvnhgtstykzpg/CombatRPG_Prefix.pch.gch
+xCombatRPG_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile CombatRPG_Prefix.pch330218169#330218177#0(0"0(0#0#77"/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/CombatRPG_Prefix.pch4300885448#1985"    cd /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-generated-files.hmap -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-own-target-headers.hmap -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-all-target-headers.hmap -iquote /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-project-headers.hmap -F/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/include -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources/i386 -I/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources -c /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/CombatRPG_Prefix.pch -o /var/folders/1Y/1YaM4pEaHyaiBAFH5GPoek+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CombatRPG_Prefix-buihvbuztvqjhdglvnhgtstykzpg/CombatRPG_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/1Y/1YaM4pEaHyaiBAFH5GPoek+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CombatRPG_Prefix-dnmfzsptbwnoolassitwxfxkzbkv/CombatRPG_Prefix.pch.gch CombatRPG_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s330083624.539615
+e330083628.730566
+r1
+xProcessPCH
+x/var/folders/1Y/1YaM4pEaHyaiBAFH5GPoek+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CombatRPG_Prefix-dnmfzsptbwnoolassitwxfxkzbkv/CombatRPG_Prefix.pch.gch
+xCombatRPG_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile CombatRPG_Prefix.pch330083624#330083628#0(0"0(0#0#77"/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/CombatRPG_Prefix.pch4300885448#1985"    cd /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-generated-files.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-own-target-headers.hmap -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-all-target-headers.hmap -iquote /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/CombatRPG-project-headers.hmap -F/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/include -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources/i386 -I/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/CombatRPG.build/Debug-iphonesimulator/CombatRPG.build/DerivedSources -c /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/CombatRPG_Prefix.pch -o /var/folders/1Y/1YaM4pEaHyaiBAFH5GPoek+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CombatRPG_Prefix-dnmfzsptbwnoolassitwxfxkzbkv/CombatRPG_Prefix.pch.gch0#
+
+CTouch /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app
+s330470344.208173
+e330470344.210883
+r1
+xTouch
+x/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app
+lSLF07#2@104"Touch /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app330470344#330470344#0(0"0(0#0#0"4300885448#324"    cd /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app0#
+
+CTouch /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app
+s330218179.368821
+e330218179.373888
+r1
+xTouch
+x/Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app
+lSLF07#2@104"Touch /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app330218179#330218179#0(0"0(0#0#0"4300885448#324"    cd /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/shelton5/Dropbox/work/Personal/ipad_dev/CombatRPG/build/Debug-iphonesimulator/CombatRPG.app0#
+

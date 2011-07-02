@@ -1,0 +1,5 @@
+/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/AboutView.m: In function '-[AboutView initWithFrame:]':
+/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/AboutView.m:15: warning: 'UIViewController' may not respond to '-initWithFrame:'
+/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/AboutView.m:15: warning: (Messages without a matching method signature
+/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/AboutView.m:15: warning: will be assumed to return 'id' and accept
+/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/AboutView.m:15: warning: '...' as arguments.)

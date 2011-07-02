@@ -1,0 +1,3 @@
+/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/AboutViewController.m:14: error: no declaration of property 'delegate' found in the interface
+/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/AboutViewController.m: In function '-[AboutViewController done]':
+/Users/shelton5/Dropbox/Work/Personal/ipad_dev/CombatRPG/AboutViewController.m:24: error: request for member 'delegate' in something not a structure or union
