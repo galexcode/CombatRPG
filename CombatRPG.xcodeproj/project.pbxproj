@@ -30,6 +30,7 @@
 		D9C327B913B2931200C8BD1D /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C327B113B2931200C8BD1D /* SBJsonBase.m */; };
 		D9C327BA13B2931200C8BD1D /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C327B313B2931200C8BD1D /* SBJsonParser.m */; };
 		D9C327BB13B2931200C8BD1D /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C327B513B2931200C8BD1D /* SBJsonWriter.m */; };
+		EB2B0ABE13EC654F00548E59 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = EB2B0ABD13EC654E00548E59 /* readme.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +76,7 @@
 		D9C327B313B2931200C8BD1D /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
 		D9C327B413B2931200C8BD1D /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
 		D9C327B513B2931200C8BD1D /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		EB2B0ABD13EC654E00548E59 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 				280E754C0DD40C5E005A515E /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* CombatRPG-Info.plist */,
 				D91FA3EB13ACB7FF0098C2AE /* AboutView.xib */,
+				EB2B0ABD13EC654E00548E59 /* readme.txt */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CombatRPG" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
 				English,
@@ -293,6 +297,7 @@
 				280E754F0DD40C5E005A515E /* MainWindow.xib in Resources */,
 				D91FA3DD13ACB5840098C2AE /* CombatView.xib in Resources */,
 				D91FA3ED13ACB7FF0098C2AE /* AboutView.xib in Resources */,
+				EB2B0ABE13EC654F00548E59 /* readme.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,7 +340,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = CombatRPG_Prefix.pch;
 				INFOPLIST_FILE = "CombatRPG-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = CombatRPG;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -347,7 +354,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = CombatRPG_Prefix.pch;
 				INFOPLIST_FILE = "CombatRPG-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = CombatRPG;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -359,8 +368,9 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PREBINDING = NO;
-				SDKROOT = iphoneos3.1.3;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -372,8 +382,9 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PREBINDING = NO;
-				SDKROOT = iphoneos3.1.3;
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
